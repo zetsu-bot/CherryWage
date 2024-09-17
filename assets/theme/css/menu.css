@@ -1,0 +1,43 @@
+/* Stylesheet untuk membuat menu sticky */
+
+.navbar-area {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff; /* Latar belakang putih agar jelas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opsional: menambahkan bayangan */
+}
+
+.desktop-nav {
+    padding: 10px 0; /* Memberikan sedikit padding untuk tampilan lebih baik */
+}
+
+@media (max-width: 768px) {
+    .navbar-area {
+        position: fixed; /* Untuk perangkat mobile, sticky diubah menjadi fixed */
+        width: 100%;
+        top: 0;
+    }
+
+    .mobile-responsive-nav {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+}
+
+.navbar-brand img {
+    width: 80px; /* Ukuran logo */
+    margin-left: 30px; /* Spasi kiri untuk logo */
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px; /* Jarak antara teks menu */
+    text-transform: uppercase; /* Ubah teks menjadi huruf besar */
+    font-weight: bold; /* Buat teks lebih tebal */
+    color: #333; /* Warna teks */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Warna teks saat hover */
+}

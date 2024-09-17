@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("flaticone4f4.ttf?fcb535479e5f7ed1d9eda6bc019c653a") format("truetype"),
+url("flaticone4f4.woff?fcb535479e5f7ed1d9eda6bc019c653a") format("woff"),
+url("flaticone4f4.html?fcb535479e5f7ed1d9eda6bc019c653a") format("woff2"),
+url("flaticone4f4.eot?fcb535479e5f7ed1d9eda6bc019c653a#iefix") format("embedded-opentype"),
+url("../../../404.html?fcb535479e5f7ed1d9eda6bc019c653a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-natural-energy:before {
+    content: "\f101";
+}
+.flaticon-like:before {
+    content: "\f102";
+}
+.flaticon-visibility:before {
+    content: "\f103";
+}
+.flaticon-shopping-cart:before {
+    content: "\f104";
+}
+.flaticon-24-hours:before {
+    content: "\f105";
+}
+.flaticon-save-money:before {
+    content: "\f106";
+}
+.flaticon-package-box:before {
+    content: "\f107";
+}
+.flaticon-cashback:before {
+    content: "\f108";
+}
+.flaticon-crown:before {
+    content: "\f109";
+}
